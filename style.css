@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image img{
+    width: 50%;
+    margin-left: 650px;
+    margin-top: -60px;
+}
+nav{
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+}
+.home{
+    margin: 15px 20px;
+    justify-content: space-between;
+    gap: 20px;
+}
+nav .services a{
+    margin: 15px 30px;
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 18px;
+}
+.me{
+    color: rgb(13, 110, 13);
+    font-size: 25px;
+}
+.paragraph{
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    font-size: 25px;
+}
+.pp{
+    font-size: 60px;
+}
+.Portfolio{
+    position: absolute;
+    top: 380px;
+    left: 90px;
+    
+}
+.Portfolio button{
+    background-color:rgb(0, 126, 88);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+.h11{
+    margin-left: 550px;
+    margin-top: 100px;
+}
+
+.UI{
+    padding: 20px;
+    font-size: 17px;
+    display: flex;
+    margin: 120px 200px;
+}
+.UX{
+    margin: 0px 50px;
+}
+.UX P{
+    color: rgba(43, 40, 40, 0.685);
+    margin-top: 10px;
+}
+.UX span {
+    font-size: 25px;
+    color: black;
+}
+.Web-web{
+    display: flex;
+    padding: 20px;
+    font-size: 17px;
+    margin: 120px 200px;
+    margin-top: -50px;
+}
+.Web-web .web span{
+    font-size: 25px;
+    color: black;
+}
+.web p{
+    color: rgba(43, 40, 40, 0.685);
+    margin-top: 10px;
+}
+.web{
+    margin: 0px 50px;
+}
+.hr{
+    width: 60px;
+    color: rgb(13, 110, 13);
+    margin-top: 10px;
+}
+.about{
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top: 200px;
+}
+.image2 img{
+    width: 300px;
+    height: 300px;
+    
+}
+.lorem{
+    font-size: 20px;
+    color: rgba(43, 40, 40, 0.685);
+    margin-left: 30px;
+}
+.lorem-lorem{
+    display: flex;
+    
+}
+.ipsum{
+    font-size: 20px;
+    color: rgba(43, 40, 40, 0.685);
+    margin-left: 30px;
+}
+.ipsum p{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+.lorem p{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+.ipsum button{
+    background-color:rgb(0, 126, 88);
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+    width: 130px;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.clients{
+    margin-left: 600px;
+    margin-top: 150px;
+    font-size: 20px;
+}
+.apple img{
+    width: 70px;
+    margin-left: 900px;
+    margin-top: 150px;
+}
+.disnep{
+    margin-left: 900px;
+    margin-top: -150px;
+    background-color: white;
+}
+.chase{
+    margin-left: 620px;
+    margin-top: -60px;
+}
+.coca{
+    margin-left: 620px;
+    margin-top: 55px;
+    width: 500px;
+}
+.starbucks{
+    margin-left: 350px;
+    margin-top: -135px;
+}
+.last{
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.all{
+    margin-top: 80px;
+}
+.contact{
+    margin-left: 560px;
+    margin-top: 250px;
+    font-size: 20px;
+}
+.first-name{
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 50px;
+}
+.first-name input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(212, 208, 208);
+    width: 600px;
+    margin: 0px 50px;
+    font-size: 17px;
+}
+.email-address input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(212, 208, 208);
+    width: 97%;
+    margin: 0px 20px;
+    font-size: 17px;
+}
+.email{
+    margin-top: -80px;
+}
+.subject-of input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(212, 208, 208);
+    width: 97%;
+    margin: 0px 20px;
+    font-size: 17px;
+}
+.subject{
+    margin-top: 47px;
+}
+.textarea1{
+    margin-top: 55px;
+    margin-left: 20px;
+}
+.textarea1 textarea{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(212, 208, 208);
+    width: 99%;
+    font-size: 17px;
+    height: 200px;
+}
+.send button{
+    background-color:rgb(0, 126, 88);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+footer span{
+    margin-top: 100px;
+}
+footer{
+    background-color: rgb(236, 236, 238);
+    height: 450px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 100px;
+    font-size: 23px;
+}
+.mountain{
+    margin-top: -270px;
+    margin-left: 150px;
+    color:  rgba(75, 74, 74, 0.692);
+}
+.for-all{
+    margin-left: 435px;
+    margin-top: -60px;
+}
+.branding {
+    margin-top: 10px;
+}
+.graphic{
+    margin-top: 10px;
+}
+.web-app{
+    margin-top: 10px;
+}
+.branding a{
+    color: rgba(75, 74, 74, 0.692);
+}
+.graphic a{
+    color: rgba(75, 74, 74, 0.692);
+}
+.web-app a{
+    color: rgba(75, 74, 74, 0.692);
+}
+.for-all2{
+    margin-left: 660px;
+    margin-top: -83px;
+}
+.branding2{
+    margin-top: 10px;
+}
+.graphic2{
+    margin-top: 10px;
+}
+.web-app2{
+    margin-top: 10px;
+}
+.branding2 a{
+    color: rgba(75, 74, 74, 0.692);
+}
+.graphic2 a{
+    color: rgba(75, 74, 74, 0.692);
+}
+.web-app2 a{
+    color: rgba(75, 74, 74, 0.692);
+}
+.for-all3{
+    margin-left: 882px;
+    margin-top: -83px;
+}
+.branding3{
+    margin-top: 10px;
+}
+.graphic3{
+    margin-top: 10px;
+}
+.web-app3{
+    margin-top: 10px;
+}
+.branding3 a{
+    color: rgba(75, 74, 74, 0.692);
+}
+.graphic3 a{
+    color: rgba(75, 74, 74, 0.692);
+}
+.web-app3 a{
+    color: rgba(75, 74, 74, 0.692);
+}
+.copy{
+    margin-left: 400px;
+    margin-top: 100px;
+    color: rgba(75, 74, 74, 0.692);
+}
+.copy a{
+    color: rgba(75, 74, 74, 0.692);
+}
+
