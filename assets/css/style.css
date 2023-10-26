@@ -1,0 +1,502 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* /////////////////////////////////////////  NAV  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+header {
+    background-image: url("../img/bg.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav button {
+    border: none;
+    background: none;
+    display: none;
+    padding-right: 40px;
+}
+nav .logo {
+    padding-left: 40px;
+}
+nav .ul-child {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 61px;
+    padding-right: 71px;
+}
+nav .ul-child a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+nav .ul-child a:hover {
+    color: #054C73;
+}
+/* ////////////////////////////////////////////   HERO   \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.hero {
+    display: flex;
+    justify-content: end;
+}
+.hero-child {
+    background-color: #DFE9F4;
+    padding: 2rem 3rem;
+}
+.hero-child span {
+    color: #333;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.hero-child h1 {
+    color: #054C73;
+    font-size: 52px;
+    line-height: 125%;
+}
+.hero-child p {
+    color: #333;
+    font-size: 18px;
+    line-height: 216.600%;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.hero-child button {
+    height: 5rem;
+    padding: 25px 72px;
+    border-radius: 50px;
+    background-color: #054C73;
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+    margin-top: 60px;
+}
+.truck {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F5FF;
+    align-items: center;
+}
+.truck .child-truck img {
+    width: 65px;
+    color: #111111;
+}
+.child-truck {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 48px;
+    padding-bottom: 45px;
+}
+.child-truck .lorem h3 {
+    color: #333;
+    font-size: 24px;
+}
+.child-truck .lorem p {
+    color: #333333;
+}
+/* /////////////////////////////////////////////// SECTION 1 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.sec1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec1 img{
+    max-width: 90%;
+}
+.collection {
+    text-align: center;
+    padding-top: 141px;
+    padding-bottom: 71px;
+}
+.collection h1 {
+    color: #333;
+}
+.collection p {
+    color: #666;
+    font-size: 20px;
+    padding-top: 12px;
+}
+.collection-child3 ,.collection-child1 {
+    padding-top: 40px;
+}
+.sec1 .collection-child1 img {
+    border-top-left-radius: 100px;
+}
+.sec1 .collection-child3 img {
+    border-bottom-right-radius: 100px;
+}
+/* ///////////////////////////////////////////////// SECTION 2 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.sec2 {
+    padding-top: 130px;
+    display: flex;
+}
+.learn {
+    text-align: center;
+}
+.Beautify {
+    padding-left: 30px;
+    padding-right: 150px;
+    width: 100%;
+}
+.Beautify h1 {
+    color: #333;
+    font-size: 32px;
+    font-weight: 700;
+}
+.Beautify .space {
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #666;
+    padding-top: 47px;
+}
+.Beautify .shift {
+    color: #666;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 16px;
+}
+.Beautify button {
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: none;
+    background-color: #054C73;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 40px;
+}
+/* //////////////////////////////////////////////// CARDS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.browse {
+    text-align: center;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+.browse h1 {
+    color: #333;
+    padding-bottom: 15px;
+    padding-top: 100px;
+}
+.browse p {
+    color: #666;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+.cards .card-child{
+    padding-bottom: 60px;
+}
+.card-child h2 {
+    text-align: center;
+    color: #333;
+    padding-top: 27px;
+}
+.card-child img {
+    border-radius: 15px;
+    max-width: 90%;
+}
+/* /////////////////////////////////////////// CARDS2 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.work {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    border-top: 2px solid #D7D6D6;
+}
+.work h1 {
+    color: #333;
+    padding-bottom: 20px;
+}
+.work p {
+    font-size: 20px;
+    color: #666;
+}
+.cards2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.card-child2 img {
+    border-radius: 15px;
+    max-width: 90%;
+}
+.card-child2 p {
+    font-size: 17px;
+    height: 25px;
+    color: #666;
+}
+.card-child2 h2 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: #333;
+}
+.all {
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.child {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 63px;
+    width: 75px;
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    position: absolute;
+}
+.son {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+.son p {
+    color: #FFF;
+}
+/* /////////////////////////////////////////// SECTION 5 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.sec5{
+    background: #F2F5FF;
+    max-width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+.end h1{
+    color: #333;
+    font-size: 32px;
+    padding-top: 90px;
+}
+.end p{
+    color: #666;
+    line-height: 195%;
+    font-size: 20px;
+    padding-top: 12px;
+}
+.butt{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.butt button{
+    width: 9.32938rem;
+    height: 4.79656rem;
+    border: 1px solid #011C42;
+    background-color: #054C73;
+    color: white;
+    border-radius: 0.1875rem;
+    font-size: 16px;
+    font-weight: 700;
+}
+.butt input{
+    width: 23rem;
+    height: 4.79656rem;
+    font-size: 16px;
+    border: 1px solid #054C73;
+    border-radius: 0.1875rem;
+    background: #FFF;
+}
+.butt input::placeholder{
+    color: #011C42;
+    opacity: 0.3;
+    padding-left: 29px;
+}
+/* ///////////////////////////////////////////////// Footer \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+footer{
+    background-color: #03344F;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 7.5rem;
+    padding-bottom: 7.25rem;
+}
+.footer-paragraph h2{
+    padding-bottom: 25px;
+}
+.footer-paragraph{
+    color: #FFFFFF;
+    padding-bottom: 60px;
+}
+.footer-paragraph p{
+    line-height: 218.75%;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-image{
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+}
+.footer-images h2{
+    text-align: end;
+    color: #FFFFFF;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+.child-footer-image img{
+    border-radius: 2px;
+}
+/* ////////////////////////////////////////// @MEDIA \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+@media screen and (max-width:992px) {
+    nav .ul-child {
+        display: none;
+    }
+    nav button {
+        display: block;
+    }
+    .hero{
+        display: flex;
+        justify-content: center;
+    }
+    .hero .hero-child {
+        background-color: unset;
+    }
+    .truck {
+        display: inline;
+    }
+    .child-truck {
+        background-color: #F2F5FF;
+    }
+    .hero-child h1 {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .hero-child {
+        text-align: center;
+        padding-top: 100px;
+    }
+    .hero-child p {
+        font-size: 16px;
+    }
+    .hero-child button {
+        font-size: 10px;
+    }
+    .sec1 {
+        display: inline;
+        text-align: center;
+    }
+    .collection h1 {
+        font-size: 26px;
+    }
+    .collection p {
+        font-size: 13px;
+    }
+    .sec2 {
+        display: inline;
+    }
+    .Beautify {
+        padding-left: 0;   
+    }
+    .learn img {
+        max-width: 100%;
+    }
+    .Beautify h1 {
+        font-size: 28px;
+        width: 300px;
+    }
+    .Beautify p {
+        width: 300px;
+    }
+    .Beautify button {
+        text-align: center;
+        margin-left: 25px;
+        width: 250px;
+        margin-bottom: 40px;
+    }
+    .cards {
+        display: inline;
+        text-align: center;
+    }
+    .card-child img {
+        padding-top: 50px;
+    }
+    .browse {
+        width: 300px;
+    }
+    .browse h1 {
+        font-size: 25px;
+    }
+    .browse p {
+        font-size: 16px;
+    }
+    .cards2 {
+        display: inline;
+    }
+    .work h1 {
+        font-size: 26px;
+    }
+    .work p {
+        font-size: 14px;
+    }
+    .card-child2 h2 {
+        font-size: 26px;
+    }
+    .card-child2 p {
+        font-size: 14px;
+    }
+    .end h1{
+        font-size: 26px;
+    }
+    .end p{
+        font-size: 14px;
+    }
+    .butt button{
+        width: 9.3125rem;
+        height: 3.48813rem;
+        margin-top: 18px;
+    }
+    .sec5{
+        height: 70%;
+    }
+    .butt input{
+        width: 18rem;
+        height: 3.48813rem;
+    }
+    .footer-image{
+        padding-right: 0px;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        justify-items: center;
+        padding-left: 20px;
+    }
+    .child-footer-image img{
+        width: 120px;
+        height: 120px;
+    }
+    .footer-paragraph {
+        padding-left: 20px;
+        padding-top: 60px;
+    }
+    .footer-paragraph p{
+        width: 230px;
+    }
+    .footer-images h2{
+        padding-right: 0px;
+        text-align: start;
+        padding-left: 20px;
+    }
+}
